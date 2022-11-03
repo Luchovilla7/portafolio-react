@@ -31,6 +31,10 @@
     overflow: hidden;
 }
 
+.about-img img {
+  border-radius: 30px;
+}
+
 @media only screen and (max-width: 960px) {
     .about-container {
       flex-direction: column;
@@ -56,5 +60,6 @@
   
     .about-img > img {
       width: 100%;
+      height: 50%;
     }
   }
